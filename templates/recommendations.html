@@ -1,0 +1,266 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ category }} Recommendations — PocketSmart AI
+{% endblock %}
+
+{% block content %}
+
+<section class="page-head">
+    <p class="eyebrow">
+        {{ category|upper }} RECOMMENDATIONS
+    </p>
+
+    <h1>Your budget-aware plan.</h1>
+
+    <p>
+        {{ result.summary|default(
+            "Here is your personalized plan based on your requirements and budget."
+        ) }}
+    </p>
+</section>
+
+
+<section class="result-grid">
+
+    <!-- ============================== -->
+    <!-- BUDGET ALLOCATION -->
+    <!-- ============================== -->
+
+    <div class="form-card">
+
+        <h2>Budget allocation</h2>
+
+        {% if result.allocation %}
+
+            {% for item in result.allocation %}
+
+                {% if item is mapping %}
+
+                    {% set allocation_category =
+                        item.get("category", "Other")
+                    %}
+
+                    {% set amount =
+                        item.get(
+                            "amount",
+                            item.get(
+                                "budget",
+                                item.get(
+                                    "allocated_amount",
+                                    0
+                                )
+                            )
+                        )
+                    %}
+
+                {% else %}
+
+                    {% set allocation_category = "Allocation" %}
+                    {% set amount = item %}
+
+                {% endif %}
+
+
+                <div class="allocation">
+
+                    <span>
+                        {{ allocation_category }}
+                    </span>
+
+                    <strong>
+                        ₹{{ "{:,.0f}".format(
+                            amount|default(0)|float
+                        ) }}
+                    </strong>
+
+                </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <div class="notice">
+                No budget allocation was generated.
+            </div>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- ============================== -->
+    <!-- RECOMMENDATIONS -->
+    <!-- ============================== -->
+
+    <div class="form-card">
+
+        <h2>Recommendations</h2>
+
+        {% if result.recommendations %}
+
+            {% for item in result.recommendations %}
+
+                {% if item is mapping %}
+
+                    {% set item_name =
+                        item.get(
+                            "name",
+                            "Recommended Item"
+                        )
+                    %}
+
+                    {% set price =
+                        item.get(
+                            "estimated_price",
+                            item.get(
+                                "price",
+                                item.get(
+                                    "estimated_cost",
+                                    0
+                                )
+                            )
+                        )
+                    %}
+
+                    {% set reason =
+                        item.get(
+                            "reason",
+                            item.get(
+                                "description",
+                                "Recommended based on your requirements and budget."
+                            )
+                        )
+                    %}
+
+                    {% set platforms =
+                        item.get("platforms", [])
+                    %}
+
+                {% else %}
+
+                    {% set item_name = item %}
+                    {% set price = 0 %}
+                    {% set reason =
+                        "Recommended based on your requirements and budget."
+                    %}
+                    {% set platforms = [] %}
+
+                {% endif %}
+
+
+                <article class="recommendation">
+
+                    <h3>
+                        {{ item_name }}
+                    </h3>
+
+
+                    {% if price and price|float > 0 %}
+
+                        <div class="price">
+                            ₹{{ "{:,.0f}".format(
+                                price|float
+                            ) }}
+                        </div>
+
+                    {% endif %}
+
+
+                    <p>
+                        {{ reason }}
+                    </p>
+
+
+                    <!-- ============================== -->
+                    <!-- SHOPPING PLATFORMS -->
+                    <!-- ============================== -->
+
+                    {% if platforms %}
+
+                        <div class="chips">
+
+                            {% for platform in platforms %}
+
+                                {% if platform is mapping %}
+
+                                    {% set platform_name =
+                                        platform.get(
+                                            "platform",
+                                            "View"
+                                        )
+                                    %}
+
+                                    {% set platform_url =
+                                        platform.get(
+                                            "url",
+                                            "#"
+                                        )
+                                    %}
+
+                                {% else %}
+
+                                    {% set platform_name = platform %}
+                                    {% set platform_url = "#" %}
+
+                                {% endif %}
+
+
+                                {% if platform_url != "#" %}
+
+                                    <a
+                                        class="chip"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="{{ platform_url }}"
+                                    >
+                                        {{ platform_name }} ↗
+                                    </a>
+
+                                {% endif %}
+
+                            {% endfor %}
+
+                        </div>
+
+                    {% endif %}
+
+                </article>
+
+            {% endfor %}
+
+        {% else %}
+
+            <div class="notice">
+                No recommendations were generated.
+            </div>
+
+        {% endif %}
+
+    </div>
+
+</section>
+
+
+<!-- ============================== -->
+<!-- AI NOTE -->
+<!-- ============================== -->
+
+{% if result.note %}
+
+    <div class="notice">
+        {{ result.note }}
+    </div>
+
+{% endif %}
+
+
+<!-- ============================== -->
+<!-- NAVIGATION -->
+<!-- ============================== -->
+
+<a class="secondary" href="/dashboard">
+    ← Back to Dashboard
+</a>
+
+{% endblock %}

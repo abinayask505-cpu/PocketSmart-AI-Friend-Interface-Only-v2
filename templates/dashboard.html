@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — PocketSmart AI{% endblock %}
+{% block content %}
+<section class="page-head">
+  <div><p class="eyebrow">DASHBOARD</p><h1>Hi, {{ user.name }} 👋</h1><p>Choose a planner and turn your budget into a practical plan.</p></div>
+</section>
+<section class="cards planner-grid">
+  <a class="card link-card" href="/home-planner"><div class="icon">⌂</div><h3>Home Interior</h3><p>Room, quantity, style and budget.</p></a>
+  <a class="card link-card" href="/party-planner"><div class="icon">✦</div><h3>Party Planner</h3><p>Guests, event, venue and budget.</p></a>
+  <a class="card link-card" href="/jewelry-planner"><div class="icon">◇</div><h3>Jewelry Planner</h3><p>Occasion, style, budget and outfit image.</p></a>
+</section>
+<section class="section">
+  <div class="section-title"><h2>Recent plans</h2><a href="/history">View history</a></div>
+  {% if history %}
+  <div class="history-list">
+    {% for item in history %}
+      <div class="history-item"><strong>{{ item.category }}</strong><span>{{ item.created_at[:19].replace('T',' ') }}</span><em>₹{{ "{:,.0f}".format(item.input.budget) }}</em></div>
+    {% endfor %}
+  </div>
+  {% else %}<div class="empty">No plans yet. Start with one of the planners above.</div>{% endif %}
+</section>
+{% endblock %}

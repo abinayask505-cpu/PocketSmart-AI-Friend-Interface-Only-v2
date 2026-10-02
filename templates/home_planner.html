@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Home Planner — PocketSmart AI{% endblock %}
+{% block content %}
+<section class="planner-wrap"><div class="page-head"><p class="eyebrow">HOME INTERIOR PLANNER</p><h1>Build a budget-aware home plan.</h1><p>Tell PocketSmart AI what you need and keep the plan inside your budget.</p></div>
+<form class="form-card wide" method="post" action="/generate-home">
+  <div class="form-grid">
+    <label>Total budget (₹)<input name="budget" type="number" min="1" step="1" required></label>
+    <label>Room type<select name="room_type"><option>Living Room</option><option>Bedroom</option><option>Kitchen</option><option>Dining Room</option><option>Study Room</option></select></label>
+    <label>Quantity<input name="quantity" type="number" min="1" value="1" required></label>
+    <label>Style<select name="style"><option>Modern</option><option>Minimal</option><option>Traditional</option><option>Luxury</option><option>Boho</option></select></label>
+  </div>
+  <label>What do you need?<textarea name="needs" placeholder="Example: ceiling lights, fan, wall decor, compact furniture"></textarea></label>
+  <button class="primary" type="submit">Generate Home Plan</button>
+</form></section>
+{% endblock %}

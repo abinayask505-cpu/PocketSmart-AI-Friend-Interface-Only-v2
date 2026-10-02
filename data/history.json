@@ -1,0 +1,2741 @@
+[
+  {
+    "id": 1,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T15:19:01.301092+00:00",
+    "input": {
+      "budget": 50000.0,
+      "room_type": "Living Room",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "light,fan"
+    },
+    "result": {
+      "summary": "Plan for Living Room within \u20b950,000.",
+      "budget": 50000.0,
+      "allocation": [
+        {
+          "category": "Living Room",
+          "amount": 50000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Living Room essentials",
+          "estimated_price": 50000.0,
+          "reason": "Search result links are generated from your room, style and needs.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Living+Room+Modern+light%2Cfan"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Living+Room+Modern+light%2Cfan"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Living+Room+Modern+light%2Cfan"
+            }
+          ]
+        }
+      ],
+      "note": "Add GEMINI_API_KEY to enable AI-generated recommendations."
+    }
+  },
+  {
+    "id": 2,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T15:19:59.239789+00:00",
+    "input": {
+      "budget": 1500.0,
+      "room_type": "Living Room",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "Fan"
+    },
+    "result": {
+      "summary": "Plan for Living Room within \u20b91,500.",
+      "budget": 1500.0,
+      "allocation": [
+        {
+          "category": "Living Room",
+          "amount": 1500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Living Room essentials",
+          "estimated_price": 1500.0,
+          "reason": "Search result links are generated from your room, style and needs.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Living+Room+Modern+Fan"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Living+Room+Modern+Fan"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Living+Room+Modern+Fan"
+            }
+          ]
+        }
+      ],
+      "note": "Add GEMINI_API_KEY to enable AI-generated recommendations."
+    }
+  },
+  {
+    "id": 3,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Party",
+    "created_at": "2026-09-30T15:23:15.413608+00:00",
+    "input": {
+      "budget": 5000.0,
+      "guest_count": 150,
+      "event_type": "Birthday",
+      "venue": "Home",
+      "preferences": "Cake,Biriyani"
+    },
+    "result": {
+      "summary": "Birthday plan for 150 guests within \u20b95,000.",
+      "budget": 5000.0,
+      "allocation": [
+        {
+          "category": "Food & Catering",
+          "amount": 2500.0
+        },
+        {
+          "category": "Decoration",
+          "amount": 1000.0
+        },
+        {
+          "category": "Venue",
+          "amount": 1000.0
+        },
+        {
+          "category": "Entertainment",
+          "amount": 500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Food & Catering",
+          "estimated_price": 2500.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Birthday+Food+%26+Catering+Home"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Birthday+Food+%26+Catering+Home"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Birthday+Food+%26+Catering+Home"
+            }
+          ]
+        },
+        {
+          "name": "Decoration",
+          "estimated_price": 1000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Birthday+Decoration+Home"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Birthday+Decoration+Home"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Birthday+Decoration+Home"
+            }
+          ]
+        },
+        {
+          "name": "Venue",
+          "estimated_price": 1000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Birthday+Venue+Home"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Birthday+Venue+Home"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Birthday+Venue+Home"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "estimated_price": 500.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Birthday+Entertainment+Home"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Birthday+Entertainment+Home"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Birthday+Entertainment+Home"
+            }
+          ]
+        }
+      ],
+      "note": "Add GEMINI_API_KEY to enable AI-generated recommendations."
+    }
+  },
+  {
+    "id": 4,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:03:34.584954+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "Budget plan for a basic kitchen ventilation fan, prioritizing essential functionality within an extremely limited budget of INR 500.0.",
+      "budget": {
+        "total_budget": 500.0,
+        "currency": "INR",
+        "remaining_budget": 0.0,
+        "status": "Budget fully allocated for primary need."
+      },
+      "allocation": [
+        {
+          "category": "Kitchen Ventilation",
+          "item": "Small Kitchen Exhaust Fan (Basic, Wall-mounted)",
+          "description": "A compact, functional exhaust fan (e.g., 6-inch or 8-inch plastic body model) to address ventilation needs. Focus is on utility rather than elaborate aesthetics given the budget constraint. Aims for a simple, clean design consistent with minimalist aspects of modern style.",
+          "estimated_price": 480.0
+        },
+        {
+          "category": "Miscellaneous/Buffer",
+          "item": "Small Contingency",
+          "description": "A very small buffer for minor unforeseen expenses, such as a few screws or electrical tape if needed for self-installation, or slight price variations.",
+          "estimated_price": 20.0
+        }
+      ],
+      "recommendations": [
+        {
+          "title": "Prioritize Functionality",
+          "details": "Given the extremely tight budget, the primary focus must be on acquiring a functional fan. Aesthetic considerations for a 'Modern Style' will be limited to simple, clean lines of the most basic available models."
+        },
+        {
+          "title": "DIY Installation",
+          "details": "To stay within budget, consider self-installation for the fan if you have basic DIY skills and necessary tools. Professional installation costs are not covered by this budget."
+        },
+        {
+          "title": "Search Platforms",
+          "details": "Explore the following platforms for basic kitchen exhaust fans:\n- Online Retailers: Amazon India (search: 'small kitchen exhaust fan', 'mini ventilation fan'), Flipkart (search: 'kitchen exhaust fan 6 inch').\n- Local Stores: Visit local electrical shops or hardware stores, as they often stock basic, unbranded models at competitive prices."
+        },
+        {
+          "title": "Consider Second-Hand Options",
+          "details": "If the budget proves insufficient for a new fan, investigate reliable second-hand marketplaces like OLX or local community groups for used but functional exhaust fans."
+        },
+        {
+          "title": "Budget Expansion",
+          "details": "To achieve a more comprehensive 'Modern Kitchen' look or to include installation, additional lighting, or other fixtures, a significantly higher budget would be required."
+        }
+      ],
+      "note": "This budget of INR 500.0 is exceptionally restrictive for any interior project, especially for a 'Modern Style' kitchen. This plan exclusively covers the estimated cost of a single, very basic kitchen exhaust fan and a minimal buffer. It explicitly excludes installation charges, additional wiring, switches, lighting, or any other decorative or functional elements typically found in a modern kitchen. Prices are estimates and can vary significantly based on location, brand, and current market conditions. It is strongly advised to verify current prices before making a purchase."
+    }
+  },
+  {
+    "id": 5,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:03:49.513465+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": {
+        "project": "Kitchen Interior Budget Plan",
+        "room": "Kitchen",
+        "quantity": 1,
+        "style": "Modern",
+        "needs": "Fan",
+        "user_budget": "INR 500.0"
+      },
+      "budget": {
+        "total_allocated": "INR 500.0"
+      },
+      "allocation": [
+        {
+          "category": "Portable Personal Fan",
+          "item": "Small Clip-on or USB Desk Fan",
+          "estimated_price": "INR 450.0",
+          "description": "A compact, personal fan suitable for directed airflow in a small area. This is a practical option to fulfill the 'fan' requirement within the specified budget, acknowledging it will not serve as a full kitchen exhaust system.",
+          "platform": "Search: 'portable fan' on Amazon India or Flipkart"
+        },
+        {
+          "category": "Miscellaneous/Buffer",
+          "item": "Contingency",
+          "estimated_price": "INR 50.0",
+          "description": "Small buffer for minor unforeseen needs or delivery charges.",
+          "platform": "N/A"
+        }
+      ],
+      "recommendations": [
+        "Given the extremely limited budget, the suggested portable fan offers a personal cooling or directed airflow solution rather than general kitchen ventilation. For proper kitchen ventilation and odor extraction, consider saving for a dedicated exhaust fan (typically starting from INR 1500+).",
+        "If the primary need is to move air while cooking, position the portable fan carefully to avoid blowing flames or spreading cooking fumes excessively.",
+        "Explore DIY solutions for mounting the portable fan if desired (e.g., a simple hook or shelf) using items you might already have, to save costs."
+      ],
+      "note": "The provided budget of INR 500.0 is significantly constrained for a typical kitchen interior project, especially for installing a standard kitchen exhaust fan or ventilation system. The allocation focuses on the most literal interpretation of 'fan' that fits within the budget, offering a personal cooling device rather than a comprehensive ventilation solution."
+    }
+  },
+  {
+    "id": 6,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:04:05.493996+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "This budget plan for your Modern Kitchen with a need for a fan is extremely constrained by the INR 500 budget. It focuses on the most essential and budget-friendly interpretation of a 'fan' \u2013 a personal air circulation device, as a proper kitchen exhaust fan is well beyond this budget. Achieving a 'modern kitchen' aesthetic beyond basic tidiness is challenging with this allocation.",
+      "budget": {
+        "total": 500.0,
+        "currency": "INR"
+      },
+      "allocation": [
+        {
+          "category": "Small Appliance / Air Circulation",
+          "item": "Personal USB Fan / Small Clip-on Fan (Modern Design)",
+          "estimated_price_inr": 450.0,
+          "rationale": "Prioritizes the 'fan' need within the tight budget. This would be a compact, portable fan for localized air movement, not a built-in exhaust system. Look for models with a clean, minimalist design to align with 'modern' style."
+        }
+      ],
+      "recommendations": [
+        "Search platforms like Amazon, Flipkart, or local electronics stores for 'mini USB fan modern design', 'small clip-on fan for desk', or 'portable personal fan'.",
+        "Focus on decluttering and deep cleaning existing kitchen elements to create a more 'modern' and organized feel without additional cost.",
+        "Consider DIY solutions for organization (e.g., repurposing containers) which align with a minimalist modern aesthetic.",
+        "If a proper kitchen exhaust fan is required, the budget would need to be increased significantly (typically INR 2,000+ for basic models)."
+      ],
+      "note": "The provided budget of INR 500 is exceptionally low for any significant interior work, especially for a 'modern kitchen' that requires a 'fan'. This plan allocates almost the entire budget to a basic personal fan for air circulation, as a functional kitchen exhaust fan is not feasible within this amount. To achieve a more comprehensive modern kitchen design or install a proper exhaust system, a substantially higher budget would be necessary."
+    }
+  },
+  {
+    "id": 7,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:04:22.490238+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "Your budget of INR 500 for a modern kitchen with a fan requirement is extremely limited. A new kitchen fan (exhaust or ceiling) typically costs significantly more than INR 500. This plan will highlight this budget constraint and suggest how to best utilize the INR 500 for very basic accessories or provide guidance for the fan.",
+      "budget": {
+        "total_budget": 500.0,
+        "currency": "INR",
+        "room": "Kitchen",
+        "quantity": 1,
+        "style": "Modern",
+        "needs": [
+          "fan"
+        ]
+      },
+      "allocation": [
+        {
+          "category": "Kitchen Fan (Initial Need)",
+          "estimated_cost": 0.0,
+          "notes": "A new kitchen exhaust or ceiling fan, even a basic small model, typically starts from INR 800 to INR 2500 in India. This budget of INR 500 is insufficient for purchasing a new fan. It is highly recommended to save up for this item separately."
+        },
+        {
+          "category": "Small Kitchen Accessories / DIY Supplies",
+          "estimated_cost": 500.0,
+          "notes": "With INR 500, you can consider very minor kitchen enhancements. This could include a simple wall hook rail, a basic dish drying mat, a small utensil stand, or basic cleaning supplies. Focus on minimalist and practical items to suit a modern style."
+        }
+      ],
+      "recommendations": [
+        {
+          "item": "Kitchen Fan (Exhaust or Ceiling)",
+          "suggestion": "Given the budget constraint, it's advisable to save up for a proper kitchen fan. Look for energy-efficient models. Alternatively, explore second-hand markets or local repair shops for refurbished options, though availability and warranty cannot be guaranteed.",
+          "platform": "Online Retailers (e.g., Amazon India, Flipkart), Local Hardware Stores, Second-hand Marketplaces (e.g., OLX, Facebook Marketplace)",
+          "search_link": "https://www.amazon.in/kitchen-exhaust-fan, https://www.flipkart.com/kitchen-exhaust-fans"
+        },
+        {
+          "item": "Very Basic Kitchen Organizers/Accessories",
+          "suggestion": "Utilize the INR 500 for essential, small items that add functionality or cleanliness. Look for items made of plastic, stainless steel, or basic wireframe to fit a modern aesthetic without breaking the bank.",
+          "platform": "Online Retailers, Local Supermarkets/Department Stores (e.g., D-Mart, Big Bazaar), Local Street Vendors",
+          "search_link": "https://www.amazon.in/small-kitchen-accessories-under-500, https://www.flipkart.com/kitchen-accessories-storage-under-500"
+        }
+      ],
+      "note": "The budget of INR 500 is extremely constrained for furnishing a kitchen, especially with the inclusion of a fan. The estimated cost for a new fan significantly exceeds this amount. This plan provides realistic expectations and suggests how to best use the available budget for very minor improvements or to save for key items like the fan."
+    }
+  },
+  {
+    "id": 8,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:04:37.240074+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "This budget plan addresses the request for a Modern kitchen interior with a focus on a 'fan' under a very tight budget of INR 500.0. Given the severe budget constraints, a functional kitchen exhaust or ceiling fan is not feasible. This plan focuses on highly economical, basic utility items for the kitchen and strongly recommends saving for a proper fan solution.",
+      "budget": {
+        "total_budget": 500.0,
+        "currency": "INR"
+      },
+      "allocation": [
+        {
+          "item": "Basic Kitchen Utility Set (e.g., dishcloths, scrubbers, small storage clips)",
+          "estimated_cost": 300.0,
+          "notes": "Focus on essential, low-cost cleaning or organizing aids. Search platforms like Amazon India or Flipkart for 'kitchen utility combo under 300'."
+        },
+        {
+          "item": "Small Decorative/Organizational Item (e.g., magnetic clips, a single small artificial plant, wall hooks)",
+          "estimated_cost": 150.0,
+          "notes": "To add a touch of modern style or practical organization. Search for 'kitchen wall hooks' or 'mini artificial plant kitchen' on e-commerce sites."
+        },
+        {
+          "item": "Contingency / Research Fund for Fan Alternatives",
+          "estimated_cost": 50.0,
+          "notes": "Funds reserved for researching second-hand options for a fan or as a starting point for saving towards a proper ventilation solution. This budget is insufficient for a new fan."
+        }
+      ],
+      "recommendations": [
+        {
+          "category": "Fan Solution (Long-term)",
+          "details": "The budget of INR 500 is insufficient for a new, functional kitchen exhaust or ceiling fan. A basic exhaust fan typically starts from INR 1500-2000. It is highly recommended to save up more for a proper ventilation solution.",
+          "platforms_to_search": [
+            "Local appliance stores",
+            "Online retailers (Amazon India, Flipkart, Croma) for 'kitchen exhaust fan' or 'ceiling fan'"
+          ]
+        },
+        {
+          "category": "Second-hand Market (for fan)",
+          "details": "If immediate ventilation is critical, explore second-hand markets. Be cautious about the condition and safety of used electrical appliances.",
+          "platforms_to_search": [
+            "OLX India (search 'used exhaust fan kitchen')",
+            "Facebook Marketplace (search 'second hand kitchen fan')"
+          ]
+        },
+        {
+          "category": "Natural Ventilation",
+          "details": "Maximize natural airflow by regularly opening windows and doors, especially during and after cooking, to help with air circulation and reduce odors in the absence of a fan."
+        },
+        {
+          "category": "DIY Solutions (for accessories)",
+          "details": "For other kitchen needs, consider DIY projects using readily available, inexpensive materials to create storage or decor elements."
+        },
+        {
+          "category": "Budget Expansion",
+          "details": "For a truly functional and modern kitchen, consider allocating a more substantial budget, particularly for essential appliances like a fan."
+        }
+      ],
+      "note": "This plan is designed to make the most of an extremely limited budget for a kitchen, focusing on achievable items while clearly highlighting the unfeasibility of purchasing a fan. Prioritize saving for critical appliances like a fan for long-term comfort and functionality."
+    }
+  },
+  {
+    "id": 9,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:04:54.444599+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "This budget plan for your Kitchen focuses on acquiring a basic, functional fan within the extremely tight budget of INR 500.0. Due to the severe budget constraint, this plan prioritizes providing personal air circulation rather than a heavy-duty exhaust system. The 'Modern' style is considered by suggesting a compact and minimalist fan design.",
+      "budget": {
+        "total_budget_inr": 500.0
+      },
+      "allocation": [
+        {
+          "category": "Kitchen Fan (Personal/Clip-on)",
+          "description": "A compact and minimalist personal table fan or a clip-on fan suitable for providing immediate air circulation in a small kitchen area. This type of fan fits within the budget but will not serve as a proper ventilation or exhaust system for cooking fumes. Look for models with clean lines to align with a modern aesthetic.",
+          "estimated_cost_inr": 475.0
+        }
+      ],
+      "recommendations": [
+        {
+          "type": "Product Sourcing",
+          "detail": "Search for 'mini table fan', 'clip-on fan', or 'USB desk fan' on popular e-commerce platforms. Prioritize sellers offering free or low-cost shipping to stay within budget. Also check local small electronics stores or discount retailers.",
+          "platforms": [
+            "Amazon India (search: mini table fan)",
+            "Flipkart (search: clip-on fan)",
+            "Meesho (search: small fan for kitchen)",
+            "Local Electronics Stores / Discount Stores"
+          ]
+        },
+        {
+          "type": "Budget Enhancement",
+          "detail": "If a more robust kitchen exhaust fan is desired (which typically costs INR 1,500 - INR 4,000+), consider saving up or re-evaluating the budget. For the current budget, exploring second-hand markets might offer slightly larger fans, but quality and warranty would be a concern.",
+          "platforms": [
+            "OLX (search: used table fan)",
+            "Local Flea Markets"
+          ]
+        },
+        {
+          "type": "Aesthetic Considerations",
+          "detail": "To best fit a 'Modern' style, choose a fan with a simple design, neutral colors (white, black, grey), and avoid overly ornate features. Small, sleek models are often available at lower price points."
+        }
+      ],
+      "note": "INR 500.0 is an extremely restrictive budget for equipping any room, particularly a kitchen which often requires specialized appliances and ventilation. This plan strictly focuses on fulfilling the immediate need for 'a fan' by suggesting the most affordable personal circulation options. It does not allow for a dedicated kitchen exhaust fan or any other kitchen furnishing."
+    }
+  },
+  {
+    "id": 10,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:05:15.541413+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "This budget plan for your kitchen focuses on providing a basic personal cooling solution (fan) and extremely low-cost or DIY elements to introduce a modern aesthetic, strictly adhering to your INR 500.0 budget. Please note that a full kitchen exhaust fan or significant modern decor items are not feasible within this constraint.",
+      "budget": {
+        "total_budget": 500.0,
+        "currency": "INR"
+      },
+      "allocation": {
+        "Personal Cooling Fan (Small USB/Table Fan)": 380.0,
+        "DIY Modern Accents / Cleaning & Organization Essentials": 120.0
+      },
+      "recommendations": {
+        "Fan Selection": "Look for compact, minimalist designs in white or black for a modern feel. Consider small USB-powered fans or basic personal table fans. Search for 'small USB fan' or 'mini table fan' on platforms like Amazon India (amazon.in) or Flipkart (flipkart.com). Due to the budget, a dedicated kitchen exhaust fan is not feasible.",
+        "Achieving Modern Style on a Budget": [
+          "Declutter and Clean: The most cost-effective way to achieve a modern, minimalist look is thorough cleaning and decluttering. This costs nothing and makes a huge impact on the perception of the space.",
+          "Monochromatic Palette: Focus on existing items in white, black, grey, or natural wood tones. For decor, consider printing free minimalist art online (e.g., geometric patterns, line art) and displaying it simply (e.g., using existing frame, or plain tape).",
+          "Smart Storage: Utilize existing jars, containers, or baskets for organized, clean storage of dry goods or utensils. This helps create a tidy, modern look.",
+          "Lighting: Maximize natural light in your kitchen to make the space feel brighter and more open, which aligns with modern design principles.",
+          "Small Accents: With the remaining budget, consider purchasing a single small, plain pot for a plant, or basic cleaning supplies (e.g., a microfiber cloth) to maintain cleanliness, which is crucial for a modern aesthetic."
+        ],
+        "Future Upgrades": "This budget does not allow for a dedicated kitchen exhaust fan or any significant modern kitchen fixtures. Consider saving up for these items to make a more substantial impact on your kitchen's functionality and style in the future."
+      },
+      "note": "Your budget of INR 500.0 is extremely limited for a kitchen interior, especially when including a fan. This plan prioritizes a very basic personal cooling fan. A traditional kitchen exhaust fan, significant modern styling elements, or any furniture are not achievable within this budget. The recommendations focus heavily on DIY, cleaning, organization, and smart utilization of existing resources to meet the 'modern style' request."
+    }
+  },
+  {
+    "id": 11,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:05:24.036605+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "Budget plan for incorporating a fan into a kitchen, adhering to a strict budget of INR 500.0. Due to the extremely limited budget, the focus will be solely on acquiring a basic fan, making a comprehensive 'Modern Style' kitchen transformation infeasible within this amount.",
+      "budget": {
+        "total_budget": "INR 500.0",
+        "currency": "INR"
+      },
+      "allocation": [
+        {
+          "category": "Basic Exhaust Fan / Small Table Fan",
+          "description": "Allocation for a very basic, entry-level exhaust fan (for ventilation) or a small, portable table fan (for personal comfort). Finding a ceiling fan within this budget is highly unlikely.",
+          "estimated_cost": "INR 450.0 - INR 500.0",
+          "notes": "This covers the cost of the unit itself. Installation costs are not included and would exceed the budget."
+        }
+      ],
+      "recommendations": [
+        {
+          "type": "Budget Optimization",
+          "details": "Given the very limited budget, consider searching for second-hand, refurbished, or unboxed basic exhaust fans. Look for brands offering very economical models. DIY installation if you have the skills can save significant costs as professional installation would likely exceed the entire budget."
+        },
+        {
+          "type": "Product Search Platforms",
+          "details": "Explore online marketplaces for budget-friendly options: Flipkart, Amazon India. Also, check local hardware stores and electrical shops for basic models, as they might offer more competitive prices on entry-level exhaust fans or small table fans."
+        },
+        {
+          "type": "Budget Reassessment",
+          "details": "For a 'Modern Style' kitchen and a durable, good quality fan (especially a ceiling or larger exhaust fan), a significantly higher budget (typically INR 1,500 - INR 3,000+ for the fan alone, plus installation and any design elements) would be required. This budget only allows for the most basic ventilation solution."
+        }
+      ],
+      "note": "INR 500.0 is an extremely restrictive budget for any home interior project, especially for a kitchen which typically requires significant investment. This plan prioritizes the acquisition of a very basic fan out of necessity. Achieving a 'Modern Style' or any substantial kitchen upgrade is not possible within this financial constraint. The estimated costs are for the fan unit only; installation, wiring, or any other modern design elements are entirely excluded."
+    }
+  },
+  {
+    "id": 12,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:05:35.574867+00:00",
+    "input": {
+      "budget": 500.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "This budget plan addresses the need for a fan in a Kitchen with a budget of INR 500.0, aiming for a Modern style. Please note that INR 500 is an extremely limited budget for any significant kitchen fixture, especially a fan (exhaust or comfort fan), and will not allow for achieving a 'Modern' aesthetic through purchases. The entire budget will be allocated towards the fan, with an explanation of its limitations.",
+      "budget": {
+        "total": 500.0,
+        "currency": "INR",
+        "remaining": 0.0
+      },
+      "allocation": [
+        {
+          "category": "Kitchen Fan (Small/Basic)",
+          "estimated_price": 500.0,
+          "notes": "This budget is critically insufficient for a new, functional kitchen exhaust fan (which typically starts from INR 1,500+) or even most new comfort fans. It might cover a very basic used model, a small battery-operated clip-on fan (if comfort is the goal), or contribute partially to a new, low-end fan."
+        }
+      ],
+      "recommendations": [
+        {
+          "title": "Budget Augmentation",
+          "details": "For a proper kitchen exhaust fan or a durable comfort fan, consider saving more. A standard exhaust fan typically costs INR 1,500 - INR 3,000+."
+        },
+        {
+          "title": "Second-hand Market",
+          "details": "Explore platforms like OLX or Quikr for pre-owned fans. You might find a very basic or used model within or slightly above this budget. Local second-hand electronics shops could also be an option.",
+          "platforms": [
+            "OLX",
+            "Quikr"
+          ]
+        },
+        {
+          "title": "Basic Ventilation (Free)",
+          "details": "For immediate and free ventilation, prioritize natural airflow by keeping windows open during and after cooking."
+        },
+        {
+          "title": "Temporary/DIY Solutions",
+          "details": "If a comfort fan is the primary goal, look for very small, USB-powered or battery-operated clip-on fans. While some might be under INR 500, their effectiveness in a kitchen environment is limited."
+        },
+        {
+          "title": "Modern Style Consideration",
+          "details": "Achieving a 'Modern' kitchen style with fixtures and significant upgrades is not feasible with this budget. Focus will need to be on functionality and making the most of existing elements."
+        }
+      ],
+      "note": "INR 500 is an extremely challenging budget for outfitting a kitchen, especially for an electrical appliance like a fan. This plan allocates the entire budget to the fan, but it's crucial to manage expectations regarding the type and quality of fan that can be acquired for this amount, and that a 'Modern' aesthetic is unattainable with this funding for major items."
+    }
+  },
+  {
+    "id": 13,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:11:34.325344+00:00",
+    "input": {
+      "budget": 2500.0,
+      "room_type": "Bedroom",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "fan"
+    },
+    "result": {
+      "summary": "This budget plan for your 1 Bedroom (Modern Style) is designed to maximize essentials within INR 2500.0. Due to the tight budget, the focus is on functional items with a clean, minimalist aesthetic. A table/wall-mounted fan is included, as a ceiling fan with installation would likely exceed this budget.",
+      "budget": {
+        "total_budget": 2500.0,
+        "currency": "INR",
+        "room": "Bedroom",
+        "quantity": 1,
+        "style": "Modern"
+      },
+      "allocation": [
+        {
+          "category": "Fan (Table/Wall-Mounted)",
+          "item_description": "Essential for ventilation. A basic, compact table or wall-mounted fan fits the budget better than a ceiling fan.",
+          "estimated_price": 1000.0,
+          "platforms": "Search 'Table Fan' or 'Wall Mounted Fan' on Flipkart, Amazon India, Local Electronics Stores"
+        },
+        {
+          "category": "Basic Lighting",
+          "item_description": "Single LED bulb (9W-12W) with a simple holder for general illumination.",
+          "estimated_price": 250.0,
+          "platforms": "Search 'LED Bulb Holder' on Amazon India, Flipkart, Local Electrical Stores"
+        },
+        {
+          "category": "Bedsheet (Single)",
+          "item_description": "A plain, solid-color cotton bedsheet to maintain a modern, uncluttered look.",
+          "estimated_price": 450.0,
+          "platforms": "Search 'Single Bedsheet' on Meesho, Amazon India, Flipkart, Local Home Stores"
+        },
+        {
+          "category": "Window Treatment (Single Panel Curtain)",
+          "item_description": "One simple, light-filtering curtain panel in a neutral color (e.g., grey, beige) with a basic rod (if not already present, may need to adjust other items).",
+          "estimated_price": 400.0,
+          "platforms": "Search 'Single Panel Curtain' on Amazon India, Flipkart, Myntra, Local Fabric/Home Stores"
+        },
+        {
+          "category": "Small Decor Accent",
+          "item_description": "A very small item to add a touch of modern style, such as a faux plant, a minimalist photo frame, or a small wall decal.",
+          "estimated_price": 300.0,
+          "platforms": "Search 'Mini Faux Plant', 'Minimalist Photo Frame', 'Wall Decal' on IKEA (budget section), Local Marketplaces, Meesho"
+        },
+        {
+          "category": "Contingency/Miscellaneous",
+          "item_description": "Buffer for small unforeseen costs or price fluctuations.",
+          "estimated_price": 100.0,
+          "platforms": ""
+        }
+      ],
+      "recommendations": [
+        "**Prioritize DIY:** Install the fan (if table/wall-mounted) and curtain rod yourself to save on labor costs.",
+        "**Shop Smart:** Look for sales, discounts, and combo offers on online platforms.",
+        "**Local Markets:** Explore local markets for better deals on bedding, curtains, and small decor items.",
+        "**Minimalist Approach:** Embrace the modern style by keeping items few, functional, and clean-lined. Avoid clutter.",
+        "**Used/Upcycled:** Consider looking for pre-owned modern-style decor items on platforms like OLX or local swap groups to save money."
+      ],
+      "note": "INR 2500.0 is a very constrained budget for a complete bedroom interior. This plan focuses strictly on fundamental necessities and basic aesthetics. It assumes no existing furniture or major structural changes are needed. Prices are estimates and may vary based on location, brand, and current offers. Achieving a 'modern' style on this budget will lean heavily on minimalism, clean lines, and neutral colors rather than high-end materials or elaborate designs."
+    }
+  },
+  {
+    "id": 14,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:22:26.649060+00:00",
+    "input": {
+      "budget": 5000.0,
+      "room_type": "Kitchen",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "light\r\n"
+    },
+    "result": {
+      "summary": "Budget plan for a modern kitchen lighting solution.",
+      "budget": 5000.0,
+      "allocation": [
+        {
+          "category": "Lighting Fixture",
+          "amount": 4000.0
+        },
+        {
+          "category": "Installation & Minor Electricals",
+          "amount": 1000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Slim LED Panel Ceiling Light",
+          "estimated_price": 3800.0,
+          "reason": "This light offers bright, uniform illumination essential for kitchen tasks. Its sleek, minimalist design perfectly complements a modern aesthetic and ensures energy efficiency.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        }
+      ],
+      "note": "All prices are estimated and subject to change. Professional installation costs may vary and should be considered separately if not covered by the 'Installation & Minor Electricals' allocation."
+    }
+  },
+  {
+    "id": 15,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:28:45.524774+00:00",
+    "input": {
+      "budget": 50000.0,
+      "room_type": "Living Room",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "Sofa, lighting, wall decor\r\n"
+    },
+    "result": {
+      "summary": "Budget plan for a modern living room, focusing on a sofa, lighting, and wall decor, with a total budget of INR 50,000.",
+      "budget": 50000.0,
+      "allocation": [
+        {
+          "category": "Furniture (Sofa)",
+          "amount": 28000.0
+        },
+        {
+          "category": "Lighting",
+          "amount": 7000.0
+        },
+        {
+          "category": "Wall Decor",
+          "amount": 6000.0
+        },
+        {
+          "category": "Other Decor & Accessories",
+          "amount": 9000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Fabric 3-Seater Sofa (Grey/Navy)",
+          "estimated_price": 28000.0,
+          "reason": "A cornerstone piece offering comfort and style, its clean lines and neutral fabric align with modern aesthetics, providing ample seating without overwhelming the space.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Pepperfry",
+              "url": "https://www.pepperfry.com/"
+            },
+            {
+              "platform": "Urban Ladder",
+              "url": "https://www.urbanladder.com/"
+            }
+          ]
+        },
+        {
+          "name": "Minimalist LED Floor Lamp with Metallic Base",
+          "estimated_price": 4000.0,
+          "reason": "Provides essential ambient light and adds a sleek, contemporary vertical element. Its simple design is perfect for a modern living room.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            },
+            {
+              "platform": "IKEA India",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        },
+        {
+          "name": "Set of 2 Geometric Wall Sconces",
+          "estimated_price": 3000.0,
+          "reason": "Offers accent lighting, creating interesting patterns and enhancing the modern architectural feel of the room.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            },
+            {
+              "platform": "Lights and Living",
+              "url": "https://lightsandliving.com/"
+            }
+          ]
+        },
+        {
+          "name": "Large Abstract Geometric Canvas Print",
+          "estimated_price": 3500.0,
+          "reason": "Acts as a focal point, introducing color and modern artistic expression. Its abstract nature keeps the space contemporary and sophisticated.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Myntra Home",
+              "url": "https://www.myntra.com/home-decor"
+            },
+            {
+              "platform": "Home Centre",
+              "url": "https://www.homecentre.in/"
+            }
+          ]
+        },
+        {
+          "name": "Set of 3 Black Framed Botanical Prints",
+          "estimated_price": 2500.0,
+          "reason": "Provides a cohesive and elegant visual interest, easy to arrange in various modern gallery wall configurations.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            },
+            {
+              "platform": "The Decor Kart",
+              "url": "https://thedecorkart.com/"
+            }
+          ]
+        }
+      ],
+      "note": "All prices are estimates and may vary. Availability of specific items is not guaranteed and depends on current market stock. It is advisable to compare prices across platforms before making a purchase."
+    }
+  },
+  {
+    "id": 16,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T16:28:58.896490+00:00",
+    "input": {
+      "budget": 50000.0,
+      "room_type": "Living Room",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "Sofa, lighting, wall decor\r\n"
+    },
+    "result": {
+      "summary": "Modern living room budget plan focusing on essential furniture, lighting, and wall decor within INR 50,000.",
+      "budget": 50000.0,
+      "allocation": [
+        {
+          "category": "Furniture",
+          "amount": 28000.0
+        },
+        {
+          "category": "Lighting",
+          "amount": 7000.0
+        },
+        {
+          "category": "Wall Decor",
+          "amount": 7000.0
+        },
+        {
+          "category": "Accessories & Soft Furnishings",
+          "amount": 8000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Fabric 3-Seater Sofa",
+          "estimated_price": 28000.0,
+          "reason": "Serves as the central comfort piece, establishing the modern aesthetic of the living room.",
+          "platforms": [
+            {
+              "platform": "Pepperfry",
+              "url": "https://www.pepperfry.com/"
+            },
+            {
+              "platform": "Urban Ladder",
+              "url": "https://www.urbanladder.com/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Sleek LED Floor Lamp",
+          "estimated_price": 4500.0,
+          "reason": "Provides essential ambient lighting and adds a contemporary design element to the room.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Smart LED Strip Lights (5m)",
+          "estimated_price": 2500.0,
+          "reason": "Offers versatile accent lighting, ideal for creating a modern and dynamic ambiance behind furniture or along edges.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Large Abstract Canvas Print",
+          "estimated_price": 4000.0,
+          "reason": "Introduces a focal point and injects color and artistic flair, aligning with a modern decor style.",
+          "platforms": [
+            {
+              "platform": "Myntra Home",
+              "url": "https://www.myntra.com/home-decor"
+            },
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            }
+          ]
+        },
+        {
+          "name": "Set of 2 Minimalist Floating Wall Shelves",
+          "estimated_price": 3000.0,
+          "reason": "Provides functional display space for decor while maintaining clean lines consistent with modern design.",
+          "platforms": [
+            {
+              "platform": "Ikea India",
+              "url": "https://www.ikea.in/"
+            },
+            {
+              "platform": "Pepperfry",
+              "url": "https://www.pepperfry.com/"
+            }
+          ]
+        },
+        {
+          "name": "Coordinated Scatter Cushions (Set of 3) & Throw Blanket",
+          "estimated_price": 4000.0,
+          "reason": "Adds comfort, texture, and opportunities for color accents to complement the sofa and overall theme.",
+          "platforms": [
+            {
+              "platform": "H&M Home",
+              "url": "https://www2.hm.com/en_in/home.html"
+            },
+            {
+              "platform": "Zara Home",
+              "url": "https://www.zarahome.com/in/"
+            },
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            }
+          ]
+        },
+        {
+          "name": "Geometric Pattern Area Rug (5x7 ft)",
+          "estimated_price": 4000.0,
+          "reason": "Anchors the seating area, adds warmth underfoot, and introduces a subtle pattern for a complete modern look.",
+          "platforms": [
+            {
+              "platform": "Jaipur Rugs",
+              "url": "https://www.jaipurrugs.com/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        }
+      ],
+      "note": "Estimated prices are indicative and subject to change based on specific product choices, retailer, and sales events. It is recommended to compare options across multiple platforms for the best value."
+    }
+  },
+  {
+    "id": 17,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Party",
+    "created_at": "2026-09-30T16:31:26.609897+00:00",
+    "input": {
+      "budget": 30000.0,
+      "guest_count": 30,
+      "event_type": "Birthday",
+      "venue": "Home",
+      "preferences": "Simple modern decoration"
+    },
+    "result": {
+      "summary": "A budget-friendly birthday party plan for 30 guests at home, focusing on a simple modern aesthetic and efficient allocation of resources.",
+      "budget": 30000.0,
+      "allocation": [
+        {
+          "category": "Food & Catering",
+          "amount": 13000.0
+        },
+        {
+          "category": "Cake",
+          "amount": 2500.0
+        },
+        {
+          "category": "Decorations",
+          "amount": 3500.0
+        },
+        {
+          "category": "Entertainment & Music",
+          "amount": 2500.0
+        },
+        {
+          "category": "Return Favors",
+          "amount": 3500.0
+        },
+        {
+          "category": "Contingency",
+          "amount": 5000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Home Catering Service (Indian Buffet)",
+          "estimated_price": 13000.0,
+          "reason": "Professional catering simplifies hosting for 30 guests, offering a variety of dishes suitable for a home birthday, fitting the primary budget segment.",
+          "platforms": [
+            {
+              "platform": "Justdial",
+              "url": "https://www.justdial.com/"
+            },
+            {
+              "platform": "Local Caterers (discovery via web search)",
+              "url": "https://www.google.com/search?q=local+caterers+in+india"
+            }
+          ]
+        },
+        {
+          "name": "Modern Minimalist Decoration Kit (Balloons, Banner, Fairy Lights)",
+          "estimated_price": 3000.0,
+          "reason": "Helps create a chic and simple modern ambiance with easy-to-set-up elements, aligning with preferences for home decor.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Themed Designer Birthday Cake (2.5 kg)",
+          "estimated_price": 2500.0,
+          "reason": "A custom cake is a centerpiece for a birthday, offering a personalized touch and fitting the chosen event type.",
+          "platforms": [
+            {
+              "platform": "Winni",
+              "url": "https://www.winni.in/"
+            },
+            {
+              "platform": "Ferns N Petals",
+              "url": "https://www.fnp.com/"
+            }
+          ]
+        },
+        {
+          "name": "Portable Bluetooth Party Speaker Rental",
+          "estimated_price": 1000.0,
+          "reason": "Ensures good music quality for the party ambiance without a large upfront purchase, suitable for a home setting and within the entertainment budget.",
+          "platforms": [
+            {
+              "platform": "Local Rental Services (discovery via web search)",
+              "url": "https://www.google.com/search?q=speaker+rental+near+me+india"
+            },
+            {
+              "platform": "Rentomojo (for select cities)",
+              "url": "https://www.rentomojo.com/"
+            }
+          ]
+        },
+        {
+          "name": "Personalized Eco-Friendly Seed Pens (Pack of 30)",
+          "estimated_price": 1500.0,
+          "reason": "A thoughtful and modern return gift that promotes sustainability, leaving a memorable impression on guests.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IGP.com",
+              "url": "https://www.igp.com/"
+            }
+          ]
+        }
+      ],
+      "note": "The contingency fund can be utilized for unforeseen expenses or to upgrade existing services, ensuring flexibility for your home birthday celebration. It also allows for potential savings if some DIY options are chosen for decorations or entertainment."
+    }
+  },
+  {
+    "id": 18,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-09-30T16:33:41.263079+00:00",
+    "input": {
+      "budget": 25000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Blue and gold traditional outfit"
+    },
+    "result": {
+      "summary": "Elegant and traditional jewelry recommendations for a wedding, coordinating with a blue and gold outfit.",
+      "budget": 25000.0,
+      "allocation": [
+        {
+          "category": "Jewelry",
+          "amount": 18500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Kundan & Pearl Choker Set with Earrings",
+          "estimated_price": 12000.0,
+          "reason": "This set perfectly complements a traditional wedding outfit. The gold-toned kundan work aligns with the outfit's gold details, while pearls add a touch of classic elegance. A choker style is very popular and regal for weddings.",
+          "platforms": [
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Myntra",
+              "url": "https://www.myntra.com/"
+            }
+          ]
+        },
+        {
+          "name": "Gold-Plated Kada Bangles with Blue Stone Accents (Set of 2)",
+          "estimated_price": 4000.0,
+          "reason": "To complete the traditional look, a pair of elegant kadas or bangles is essential. The blue stone accents will beautifully tie into the blue color of your outfit, while the gold plating matches the overall theme.",
+          "platforms": [
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            },
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            }
+          ]
+        },
+        {
+          "name": "Gold-Toned Maang Tikka with Kundan Work",
+          "estimated_price": 2500.0,
+          "reason": "A maang tikka is a quintessential piece for a traditional wedding ensemble. A gold-toned piece with intricate kundan work will elevate your hairstyle and harmonize with the choker set and the gold elements of your outfit.",
+          "platforms": [
+            {
+              "platform": "Myntra",
+              "url": "https://www.myntra.com/"
+            },
+            {
+              "platform": "Amazon India",
+              "url": "https://www.amazon.in/"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimated and can vary based on retailer, specific design, and current market conditions. It's recommended to check current prices and availability on the suggested platforms. The remaining budget of INR 6500 can be used for additional accessories like a small clutch, footwear, or slight upgrades to the recommended jewelry."
+    }
+  },
+  {
+    "id": 19,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T18:45:14.469197+00:00",
+    "input": {
+      "budget": 50000.0,
+      "room_type": "Dining Room",
+      "quantity": 1,
+      "style": "Traditional",
+      "needs": "Dining Table , light"
+    },
+    "result": {
+      "summary": "Traditional dining room budget plan focusing on a dining table and lighting.",
+      "budget": 50000.0,
+      "allocation": [
+        {
+          "category": "Dining Furniture",
+          "amount": 32000.0
+        },
+        {
+          "category": "Lighting Fixtures",
+          "amount": 8000.0
+        },
+        {
+          "category": "Decor & Contingency",
+          "amount": 10000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Solid Wood Dining Table (4-seater)",
+          "estimated_price": 32000.0,
+          "reason": "A sturdy, well-crafted solid wood table forms the centerpiece of a traditional dining room, offering durability and classic aesthetic appeal.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        },
+        {
+          "name": "Traditional Bronze Chandelier",
+          "estimated_price": 8000.0,
+          "reason": "A chandelier with classic design elements and a bronze finish enhances the traditional ambiance and provides ample, elegant lighting for the dining area.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        }
+      ],
+      "note": "The estimated prices are approximate and subject to change. Actual product availability and prices may vary across platforms and locations. It is recommended to check current listings for the most up-to-date information."
+    }
+  },
+  {
+    "id": 20,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Party",
+    "created_at": "2026-09-30T18:49:00.591495+00:00",
+    "input": {
+      "budget": 2500.0,
+      "guest_count": 3,
+      "event_type": "Wedding",
+      "venue": "Home",
+      "preferences": "Food"
+    },
+    "result": {
+      "summary": "An intimate home wedding celebration for 3 guests, with a primary focus on delicious food and a total budget of INR 2500.",
+      "budget": 2500.0,
+      "allocation": [
+        {
+          "category": "Food & Main Course",
+          "amount": 1700.0
+        },
+        {
+          "category": "Dessert & Cake",
+          "amount": 500.0
+        },
+        {
+          "category": "Non-alcoholic Beverages",
+          "amount": 200.0
+        },
+        {
+          "category": "Miscellaneous/Buffer",
+          "amount": 100.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Curated Indian Meal Boxes for 3",
+          "estimated_price": 1500.0,
+          "reason": "Convenient and high-quality meal delivery, perfect for an intimate home wedding while catering to food preferences and avoiding cooking stress.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/"
+            }
+          ]
+        },
+        {
+          "name": "Small Celebration Cake",
+          "estimated_price": 450.0,
+          "reason": "An essential element for any wedding celebration, adding a festive and sweet touch within the allocated budget.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/"
+            }
+          ]
+        }
+      ],
+      "note": "All prices are estimates and may vary based on vendor, location, and specific selections. It's recommended to check current prices and availability directly on the platforms."
+    }
+  },
+  {
+    "id": 21,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-09-30T19:09:06.802982+00:00",
+    "input": {
+      "budget": 10000.0,
+      "room_type": "Living Room",
+      "quantity": 3,
+      "style": "Modern",
+      "needs": "Lighting and decor"
+    },
+    "result": {
+      "summary": "Budget plan for modern living room lighting and decor.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Lighting",
+          "amount": 4500.0
+        },
+        {
+          "category": "Decor",
+          "amount": 4800.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern LED Floor Lamp",
+          "estimated_price": 4500.0,
+          "reason": "Provides ambient lighting and contributes to a sleek, modern aesthetic in the living room.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        },
+        {
+          "name": "Abstract Geometric Wall Art",
+          "estimated_price": 3000.0,
+          "reason": "Adds a contemporary focal point and visual interest, aligning with the modern style.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        },
+        {
+          "name": "Set of 2 Modern Decorative Throw Pillows",
+          "estimated_price": 1800.0,
+          "reason": "Enhances comfort and introduces texture or a subtle pop of color, complementing the overall modern decor.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimated and can vary based on retailer, specific product, and ongoing promotions. It is recommended to compare options across platforms for the best value."
+    }
+  },
+  {
+    "id": 22,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Party",
+    "created_at": "2026-09-30T19:11:57.906780+00:00",
+    "input": {
+      "budget": 25000.0,
+      "guest_count": 50,
+      "event_type": "Birthday",
+      "venue": "Home",
+      "preferences": "Food and Dectoraction"
+    },
+    "result": {
+      "summary": "Birthday party budget plan for 50 guests at home, prioritizing food and decor within INR 25,000.",
+      "budget": 25000.0,
+      "allocation": [
+        {
+          "category": "Food & Catering",
+          "amount": 13000.0
+        },
+        {
+          "category": "Decoration & Supplies",
+          "amount": 6000.0
+        },
+        {
+          "category": "Birthday Cake & Desserts",
+          "amount": 1800.0
+        },
+        {
+          "category": "Beverages",
+          "amount": 1200.0
+        },
+        {
+          "category": "Miscellaneous & Contingency",
+          "amount": 2500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Bulk Catering for Main Course",
+          "estimated_price": 8000.0,
+          "reason": "Essential for feeding 50 guests efficiently with a variety of preferred dishes. Focus on Indian cuisine options suitable for home parties.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/"
+            }
+          ]
+        },
+        {
+          "name": "Themed Birthday Cake",
+          "estimated_price": 1800.0,
+          "reason": "A personalized birthday cake is a central and memorable part of any birthday celebration.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/"
+            }
+          ]
+        },
+        {
+          "name": "Balloon & Basic Decorator Service",
+          "estimated_price": 3000.0,
+          "reason": "Creates a festive and celebratory atmosphere at home, aligning with decoration preferences without extensive setup.",
+          "platforms": [
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/"
+            }
+          ]
+        }
+      ],
+      "note": "Prices listed are estimates and can vary based on specific vendor choices, location, and current market rates. It's advisable to compare options and confirm details directly with service providers."
+    }
+  },
+  {
+    "id": 23,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-09-30T19:14:01.305103+00:00",
+    "input": {
+      "budget": 15000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Traditional and red"
+    },
+    "result": {
+      "summary": "Elegant traditional jewelry recommendations featuring gold-plated designs suitable for a wedding, complementing a red outfit within your budget.",
+      "budget": 15000.0,
+      "allocation": [
+        {
+          "category": "Jewelry",
+          "amount": 14000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Antique Gold Plated Choker Necklace Set with Jhumkas",
+          "estimated_price": 8000.0,
+          "reason": "A heavy gold-toned choker necklace with intricate designs and matching jhumka earrings will perfectly complement a traditional red wedding outfit, reflecting the visual style of the image and providing a grand look.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Traditional Gold Plated Kadas (Bangles)",
+          "estimated_price": 4000.0,
+          "reason": "A pair of broad, intricately designed gold-plated kadas or bangles will enhance the traditional appeal and add richness to the overall wedding ensemble, matching the gold tones in the suggested necklace and the provided image.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Gold Plated Maang Tikka",
+          "estimated_price": 2000.0,
+          "reason": "A delicate yet traditional gold-plated maang tikka with kundan or temple design elements will complete the wedding look, adding a touch of elegance to the forehead and tying in with the overall traditional style.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        }
+      ],
+      "note": "Estimated prices are indicative and may vary. Please check current prices and availability on the respective platforms before making a purchase. Focus on gold-plated or imitation jewelry to achieve the desired traditional look within the specified budget."
+    }
+  },
+  {
+    "id": 24,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-10-01T01:01:52.490023+00:00",
+    "input": {
+      "budget": 10000.0,
+      "room_type": "Living Room",
+      "quantity": 3,
+      "style": "Modern",
+      "needs": "light and decor"
+    },
+    "result": {
+      "summary": "Budget plan for a modern living room focusing on essential lighting and decor elements.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Lighting",
+          "amount": 4500.0
+        },
+        {
+          "category": "Decor Accessories",
+          "amount": 5500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern LED Table Lamp",
+          "estimated_price": 3800.0,
+          "reason": "A sleek and energy-efficient LED table lamp provides focused ambient light, enhancing the modern aesthetic and functionality of your living room space.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        },
+        {
+          "name": "Abstract Ceramic Vase Set",
+          "estimated_price": 2700.0,
+          "reason": "A set of two minimalist ceramic vases can serve as elegant decorative accents, adding a touch of sophistication and modern artistry to your surfaces.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        },
+        {
+          "name": "Geometric Metal Wall Art",
+          "estimated_price": 3500.0,
+          "reason": "A striking piece of geometric metal wall art can act as a contemporary focal point, contributing visual interest and texture to a modern living room wall.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/"
+            }
+          ]
+        }
+      ],
+      "note": "Estimated prices are indicative and subject to change. It is recommended to verify current prices and product availability on the listed platforms."
+    }
+  },
+  {
+    "id": 25,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Party",
+    "created_at": "2026-10-01T01:12:29.220993+00:00",
+    "input": {
+      "budget": 10000.0,
+      "guest_count": 65,
+      "event_type": "Birthday",
+      "venue": "Home",
+      "preferences": "Food and Decoration"
+    },
+    "result": {
+      "summary": "Birthday plan for 65 guests within \u20b910,000.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Food & Catering",
+          "amount": 5000.0
+        },
+        {
+          "category": "Decoration",
+          "amount": 2000.0
+        },
+        {
+          "category": "Venue",
+          "amount": 2000.0
+        },
+        {
+          "category": "Entertainment",
+          "amount": 1000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Food & Catering",
+          "estimated_price": 5000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Food+%26+Catering+Home"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Food+%26+Catering+Home"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Food+%26+Catering+Home"
+            }
+          ]
+        },
+        {
+          "name": "Decoration",
+          "estimated_price": 2000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Decoration+Home"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Decoration+Home"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Decoration+Home"
+            }
+          ]
+        },
+        {
+          "name": "Venue",
+          "estimated_price": 2000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Venue+Home"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Venue+Home"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Venue+Home"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "estimated_price": 1000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Entertainment+Home"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Entertainment+Home"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Entertainment+Home"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable AI-generated recommendations."
+    }
+  },
+  {
+    "id": 26,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T01:14:55.456240+00:00",
+    "input": {
+      "budget": 200000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Blue Saree"
+    },
+    "result": {
+      "summary": "Traditional jewelry ideas for Wedding within \u20b9200,000.",
+      "budget": 200000.0,
+      "allocation": [
+        {
+          "category": "Jewelry",
+          "amount": 200000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Traditional jewelry for Wedding",
+          "estimated_price": 200000.0,
+          "reason": "Use the marketplace links to compare products and prices.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Wedding+Traditional+jewelry"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Wedding+Traditional+jewelry"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable multimodal outfit analysis."
+    }
+  },
+  {
+    "id": 27,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T01:17:12.367263+00:00",
+    "input": {
+      "budget": 200000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": ""
+    },
+    "result": {
+      "summary": "Traditional jewelry ideas for Wedding within \u20b9200,000.",
+      "budget": 200000.0,
+      "allocation": [
+        {
+          "category": "Jewelry",
+          "amount": 200000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Traditional jewelry for Wedding",
+          "estimated_price": 200000.0,
+          "reason": "Use the marketplace links to compare products and prices.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Wedding+Traditional+jewelry"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Wedding+Traditional+jewelry"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable multimodal outfit analysis."
+    }
+  },
+  {
+    "id": 28,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T01:20:22.606955+00:00",
+    "input": {
+      "budget": 100000.0,
+      "occasion": "Wedding",
+      "style": "Elegant",
+      "outfit_notes": ""
+    },
+    "result": {
+      "summary": "Elegant jewelry ideas for Wedding within \u20b9100,000.",
+      "budget": 100000.0,
+      "allocation": [
+        {
+          "category": "Jewelry",
+          "amount": 100000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Elegant jewelry for Wedding",
+          "estimated_price": 100000.0,
+          "reason": "Use the marketplace links to compare products and prices.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Wedding+Elegant+jewelry"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Wedding+Elegant+jewelry"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable multimodal outfit analysis."
+    }
+  },
+  {
+    "id": 29,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-10-01T01:48:53.597206+00:00",
+    "input": {
+      "budget": 50000.0,
+      "room_type": "Bedroom",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "Bed , Lighting , Storage"
+    },
+    "result": {
+      "summary": "Plan for Bedroom within \u20b950,000.",
+      "budget": 50000.0,
+      "allocation": [
+        {
+          "category": "Bedroom",
+          "amount": 50000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Bedroom essentials",
+          "estimated_price": 50000.0,
+          "reason": "Search result links are generated from your room, style and needs.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Bedroom+Modern+Bed+%2C+Lighting+%2C+Storage"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Bedroom+Modern+Bed+%2C+Lighting+%2C+Storage"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable AI-generated recommendations."
+    }
+  },
+  {
+    "id": 30,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Party",
+    "created_at": "2026-10-01T01:50:52.675046+00:00",
+    "input": {
+      "budget": 30000.0,
+      "guest_count": 50,
+      "event_type": "Birthday",
+      "venue": "Indoor",
+      "preferences": "Food, decoration and entertainment"
+    },
+    "result": {
+      "summary": "Birthday plan for 50 guests within \u20b930,000.",
+      "budget": 30000.0,
+      "allocation": [
+        {
+          "category": "Food & Catering",
+          "amount": 15000.0
+        },
+        {
+          "category": "Decoration",
+          "amount": 6000.0
+        },
+        {
+          "category": "Venue",
+          "amount": 6000.0
+        },
+        {
+          "category": "Entertainment",
+          "amount": 3000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Food & Catering",
+          "estimated_price": 15000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Food+%26+Catering+Indoor"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Food+%26+Catering+Indoor"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Food+%26+Catering+Indoor"
+            }
+          ]
+        },
+        {
+          "name": "Decoration",
+          "estimated_price": 6000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Decoration+Indoor"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Decoration+Indoor"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Decoration+Indoor"
+            }
+          ]
+        },
+        {
+          "name": "Venue",
+          "estimated_price": 6000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Venue+Indoor"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Venue+Indoor"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Venue+Indoor"
+            }
+          ]
+        },
+        {
+          "name": "Entertainment",
+          "estimated_price": 3000.0,
+          "reason": "Budget allocation based on the event details.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+Entertainment+Indoor"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+Entertainment+Indoor"
+            },
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+Entertainment+Indoor"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable AI-generated recommendations."
+    }
+  },
+  {
+    "id": 31,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T01:52:08.453293+00:00",
+    "input": {
+      "budget": 25000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Red saree with gold accessories"
+    },
+    "result": {
+      "summary": "Traditional jewelry ideas for Wedding within \u20b925,000.",
+      "budget": 25000.0,
+      "allocation": [
+        {
+          "category": "Jewelry",
+          "amount": 25000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Traditional jewelry for Wedding",
+          "estimated_price": 25000.0,
+          "reason": "Use the marketplace links to compare products and prices.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Wedding+Traditional+jewelry"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Wedding+Traditional+jewelry"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable multimodal outfit analysis."
+    }
+  },
+  {
+    "id": 32,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T01:53:20.133106+00:00",
+    "input": {
+      "budget": 5000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Red Saree"
+    },
+    "result": {
+      "summary": "Traditional jewelry ideas for Wedding within \u20b95,000.",
+      "budget": 5000.0,
+      "allocation": [
+        {
+          "category": "Jewelry",
+          "amount": 5000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Traditional jewelry for Wedding",
+          "estimated_price": 5000.0,
+          "reason": "Use the marketplace links to compare products and prices.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Wedding+Traditional+jewelry"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Wedding+Traditional+jewelry"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Add GEMINI_API_KEY to enable multimodal outfit analysis."
+    }
+  },
+  {
+    "id": 33,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-10-01T02:01:04.636913+00:00",
+    "input": {
+      "budget": 50000.0,
+      "room_type": "Living Room",
+      "quantity": 1,
+      "style": "Modern",
+      "needs": "Wall Decor"
+    },
+    "result": {
+      "summary": "Modern Living Room plan for 1 item, focused on Wall Decor, within \u20b950,000.",
+      "budget": 50000.0,
+      "allocation": [
+        {
+          "category": "Modern Living Room requirements",
+          "amount": 22500.0
+        },
+        {
+          "category": "Quantity-based essentials",
+          "amount": 15000.0
+        },
+        {
+          "category": "Wall Decor",
+          "amount": 12500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Living Room setup for Wall Decor",
+          "estimated_price": 22500.0,
+          "reason": "Designed specifically for your Living Room requirement with a Modern style and the requested need of Wall Decor.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Living+Room+Modern+Wall+Decor"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Living+Room+Modern+Wall+Decor"
+            }
+          ]
+        },
+        {
+          "name": "1 Modern Living Room essential item",
+          "estimated_price": 15000.0,
+          "reason": "Matches your requested quantity of 1 and keeps the estimated cost within the available budget.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Living+Room+Modern+quantity+1"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Living+Room+Modern+quantity+1"
+            }
+          ]
+        },
+        {
+          "name": "Wall Decor for Living Room",
+          "estimated_price": 12500.0,
+          "reason": "Focused specifically on the requirement you entered: Wall Decor.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Living+Room+Wall+Decor+Modern"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Living+Room+Wall+Decor+Modern"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Gemini was unavailable, so these recommendations were generated directly from your entered room, quantity, style and needs."
+    }
+  },
+  {
+    "id": 34,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Party",
+    "created_at": "2026-10-01T02:02:00.448840+00:00",
+    "input": {
+      "budget": 5000.0,
+      "guest_count": 25,
+      "event_type": "Birthday",
+      "venue": "Home",
+      "preferences": "Cake , Biriyani"
+    },
+    "result": {
+      "summary": "Birthday plan for 25 guests at Home, focused on Cake , Biriyani, within \u20b95,000.",
+      "budget": 5000.0,
+      "allocation": [
+        {
+          "category": "Food & Catering",
+          "amount": 2500.0
+        },
+        {
+          "category": "Decoration",
+          "amount": 1000.0
+        },
+        {
+          "category": "Venue",
+          "amount": 1000.0
+        },
+        {
+          "category": "Entertainment",
+          "amount": 500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Birthday catering for 25 guests",
+          "estimated_price": 2500.0,
+          "reason": "Planned specifically for your Birthday with 25 guests and your preference: Cake , Biriyani.",
+          "platforms": [
+            {
+              "platform": "Swiggy",
+              "url": "https://www.swiggy.com/search?query=Birthday+catering+25+guests+Cake+%2C+Biriyani"
+            },
+            {
+              "platform": "Zomato",
+              "url": "https://www.zomato.com/search?q=Birthday+catering+25+guests+Cake+%2C+Biriyani"
+            }
+          ]
+        },
+        {
+          "name": "Birthday decoration for Home",
+          "estimated_price": 1000.0,
+          "reason": "Decoration recommendation based on your Birthday and venue details: Home.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Birthday+decoration+Home+Cake+%2C+Biriyani"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Birthday+decoration+Home+Cake+%2C+Biriyani"
+            }
+          ]
+        },
+        {
+          "name": "Home option for Birthday",
+          "estimated_price": 1000.0,
+          "reason": "Venue recommendation is based on the venue information you provided: Home.",
+          "platforms": [
+            {
+              "platform": "OYO",
+              "url": "https://www.oyorooms.com/search?location=Birthday+venue+Home"
+            }
+          ]
+        },
+        {
+          "name": "Birthday entertainment",
+          "estimated_price": 500.0,
+          "reason": "Entertainment is included specifically for your Birthday and guest count of 25.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Birthday+entertainment+25+guests"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Gemini was unavailable, so the plan was generated directly from your event type, guest count, venue and preferences."
+    }
+  },
+  {
+    "id": 35,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T04:24:32.576881+00:00",
+    "input": {
+      "budget": 10000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Dark blue silk saree with golden border"
+    },
+    "result": {
+      "summary": "A curated selection of traditional gold-toned jewelry to perfectly complement your dark blue silk saree with a golden border for the wedding occasion, embodying elegance and classic style.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Necklace",
+          "amount": 4000.0
+        },
+        {
+          "category": "Earrings",
+          "amount": 2500.0
+        },
+        {
+          "category": "Bangles & Kada",
+          "amount": 2500.0
+        },
+        {
+          "category": "Maang Tikka",
+          "amount": 1000.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Traditional Kundan & Pearl Choker Necklace",
+          "estimated_price": 4000.0,
+          "reason": "This opulent choker, featuring Kundan stones and delicate pearl drops, will beautifully frame your neckline. Its gold-toned finish perfectly complements the golden border of your dark blue silk saree, enhancing the traditional and grand aesthetic suitable for a wedding.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Elaborate Gold-Plated Jhumka Earrings",
+          "estimated_price": 2500.0,
+          "reason": "Classic Jhumka earrings are an essential for a traditional saree look. These gold-plated Jhumkas will perfectly match the golden border of your saree, adding a touch of traditional charm and balancing the statement choker for the wedding festivity.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Antique Gold Finish Kada Bangle",
+          "estimated_price": 1500.0,
+          "reason": "A single, broad Kada bangle with an antique gold finish will gracefully adorn your wrist, harmonizing with the golden elements of your saree. It provides a touch of regal elegance, completing the traditional wedding ensemble.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Pearl & Gold Toned Maang Tikka",
+          "estimated_price": 1000.0,
+          "reason": "To complete your traditional wedding guest look, a delicate Maang Tikka featuring pearls and a gold-toned design will add a touch of traditional glamour. It elevates the overall ethnic aesthetic beautifully with your saree.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        },
+        {
+          "name": "Set of Fine Gold-Toned Bangles (6-8 pieces)",
+          "estimated_price": 1000.0,
+          "reason": "A set of slender, gold-toned bangles worn alongside the Kada will add a delightful sparkle and a rich, traditional appeal to your hands. They perfectly complement the golden border of your saree and are ideal for a wedding celebration.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimated and may vary based on design, materials, and current market conditions. We recommend checking current listings on Amazon and Flipkart for exact details and availability. Consider styling all pieces together for a cohesive and dazzling traditional wedding look."
+    }
+  },
+  {
+    "id": 36,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T04:30:30.307802+00:00",
+    "input": {
+      "budget": 10000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Dark blue silk saree with golden border"
+    },
+    "result": {
+      "summary": "Traditional jewelry plan for Wedding, matched to saree and its detected colors, within \u20b910,000.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Traditional Necklace",
+          "amount": 4500.0
+        },
+        {
+          "category": "Traditional Earrings",
+          "amount": 3000.0
+        },
+        {
+          "category": "Traditional Accessory",
+          "amount": 2500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Traditional necklace set for saree",
+          "estimated_price": 4500.0,
+          "reason": "Matches the saree-based outfit and the selected style. Occasion: Wedding. Preferred style: Traditional. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Traditional+necklace+set+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Traditional+necklace+set+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        },
+        {
+          "name": "Traditional jhumka earrings for saree",
+          "estimated_price": 3000.0,
+          "reason": "Adds an outfit-compatible traditional earring option. Occasion: Wedding. Preferred style: Traditional. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Traditional+jhumka+earrings+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Traditional+jhumka+earrings+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        },
+        {
+          "name": "Traditional bangles for saree",
+          "estimated_price": 2500.0,
+          "reason": "Complements the saree styling with a matching accessory. Occasion: Wedding. Preferred style: Traditional. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Traditional+bangles+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Traditional+bangles+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Gemini was unavailable, so the recommendations were generated from your occasion, style and outfit details. When an outfit image is supplied, Gemini can additionally analyze its visible colors and visual style."
+    }
+  },
+  {
+    "id": 37,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T04:44:43.951646+00:00",
+    "input": {
+      "budget": 10000.0,
+      "occasion": "Wedding",
+      "style": "Traditional",
+      "outfit_notes": "Dark blue silk saree with golden border"
+    },
+    "result": {
+      "summary": "Traditional jewelry plan for Wedding, matched to saree and its detected colors, within \u20b910,000.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Traditional Necklace",
+          "amount": 4500.0
+        },
+        {
+          "category": "Traditional Earrings",
+          "amount": 3000.0
+        },
+        {
+          "category": "Traditional Accessory",
+          "amount": 2500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Traditional necklace set for saree",
+          "estimated_price": 4500.0,
+          "reason": "Matches the saree-based outfit and the selected style. Occasion: Wedding. Preferred style: Traditional. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Traditional+necklace+set+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Traditional+necklace+set+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        },
+        {
+          "name": "Traditional jhumka earrings for saree",
+          "estimated_price": 3000.0,
+          "reason": "Adds an outfit-compatible traditional earring option. Occasion: Wedding. Preferred style: Traditional. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Traditional+jhumka+earrings+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Traditional+jhumka+earrings+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        },
+        {
+          "name": "Traditional bangles for saree",
+          "estimated_price": 2500.0,
+          "reason": "Complements the saree styling with a matching accessory. Occasion: Wedding. Preferred style: Traditional. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Traditional+bangles+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Traditional+bangles+for+saree+Wedding+Traditional+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Gemini was unavailable, so the recommendations were generated from your occasion, style and outfit details. When an outfit image is supplied, Gemini can additionally analyze its visible colors and visual style."
+    }
+  },
+  {
+    "id": 38,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Jewelry",
+    "created_at": "2026-10-01T05:06:30.807518+00:00",
+    "input": {
+      "budget": 10000.0,
+      "occasion": "Wedding",
+      "style": "Elegant",
+      "outfit_notes": "Dark blue silk saree with golden border"
+    },
+    "result": {
+      "summary": "Elegant jewelry plan for Wedding, matched to saree and its detected colors, within \u20b910,000.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Elegant Necklace",
+          "amount": 4500.0
+        },
+        {
+          "category": "Elegant Earrings",
+          "amount": 3000.0
+        },
+        {
+          "category": "Elegant Accessory",
+          "amount": 2500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Elegant necklace set for saree",
+          "estimated_price": 4500.0,
+          "reason": "Matches the saree-based outfit and the selected style. Occasion: Wedding. Preferred style: Elegant. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Elegant+necklace+set+for+saree+Wedding+Elegant+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Elegant+necklace+set+for+saree+Wedding+Elegant+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        },
+        {
+          "name": "Elegant jhumka earrings for saree",
+          "estimated_price": 3000.0,
+          "reason": "Adds an outfit-compatible traditional earring option. Occasion: Wedding. Preferred style: Elegant. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Elegant+jhumka+earrings+for+saree+Wedding+Elegant+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Elegant+jhumka+earrings+for+saree+Wedding+Elegant+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        },
+        {
+          "name": "Elegant bangles for saree",
+          "estimated_price": 2500.0,
+          "reason": "Complements the saree styling with a matching accessory. Occasion: Wedding. Preferred style: Elegant. Outfit context: Dark blue silk saree with golden border. Outfit color context detected: blue, gold.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Elegant+bangles+for+saree+Wedding+Elegant+Dark+blue+silk+saree+with+golden+border"
+            },
+            {
+              "platform": "Flipkart",
+              "url": "https://www.flipkart.com/search?q=Elegant+bangles+for+saree+Wedding+Elegant+Dark+blue+silk+saree+with+golden+border"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Gemini was unavailable, so the recommendations were generated from your occasion, style and outfit details. When an outfit image is supplied, Gemini can additionally analyze its visible colors and visual style."
+    }
+  },
+  {
+    "id": 39,
+    "email": "nithiarasu248@gmail.com",
+    "category": "Home",
+    "created_at": "2026-10-01T05:08:57.034558+00:00",
+    "input": {
+      "budget": 10000.0,
+      "room_type": "Bedroom",
+      "quantity": 2,
+      "style": "Modern",
+      "needs": "Bedside storage and lighting"
+    },
+    "result": {
+      "summary": "Modern Bedroom plan for 2 items, focused on Bedside storage and lighting, within \u20b910,000.",
+      "budget": 10000.0,
+      "allocation": [
+        {
+          "category": "Modern Bedroom requirements",
+          "amount": 4500.0
+        },
+        {
+          "category": "Quantity-based essentials",
+          "amount": 3000.0
+        },
+        {
+          "category": "Bedside storage and lighting",
+          "amount": 2500.0
+        }
+      ],
+      "recommendations": [
+        {
+          "name": "Modern Bedroom setup for Bedside storage and lighting",
+          "estimated_price": 4500.0,
+          "reason": "Designed specifically for your Bedroom requirement with a Modern style and the requested need of Bedside storage and lighting.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Bedroom+Modern+Bedside+storage+and+lighting"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Bedroom+Modern+Bedside+storage+and+lighting"
+            }
+          ]
+        },
+        {
+          "name": "2 Modern Bedroom essential items",
+          "estimated_price": 3000.0,
+          "reason": "Matches your requested quantity of 2 and keeps the estimated cost within the available budget.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Bedroom+Modern+quantity+2"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Bedroom+Modern+quantity+2"
+            }
+          ]
+        },
+        {
+          "name": "Bedside storage and lighting for Bedroom",
+          "estimated_price": 2500.0,
+          "reason": "Focused specifically on the requirement you entered: Bedside storage and lighting.",
+          "platforms": [
+            {
+              "platform": "Amazon",
+              "url": "https://www.amazon.in/s?k=Bedroom+Bedside+storage+and+lighting+Modern"
+            },
+            {
+              "platform": "IKEA",
+              "url": "https://www.ikea.com/in/en/search/?q=Bedroom+Bedside+storage+and+lighting+Modern"
+            }
+          ]
+        }
+      ],
+      "note": "Prices are estimates. Gemini was unavailable, so these recommendations were generated directly from your entered room, quantity, style and needs."
+    }
+  }
+]

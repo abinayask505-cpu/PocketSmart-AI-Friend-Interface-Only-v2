@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Register — PocketSmart AI{% endblock %}
+{% block content %}
+<section class="auth-wrap">
+  <form class="form-card" method="post" action="/register">
+    <p class="eyebrow">GET STARTED</p><h1>Create account</h1>
+    {% if error %}<div class="alert">{{ error }}</div>{% endif %}
+    <label>Name<input name="name" required></label>
+    <label>Email<input name="email" type="email" required></label>
+    <label>Password<input name="password" type="password" minlength="6" required></label>
+    <button class="primary" type="submit">Create Account</button>
+    <p class="muted">Already registered? <a href="/login">Login</a></p>
+  </form>
+</section>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}History — PocketSmart AI{% endblock %}
+{% block content %}
+<section class="page-head"><p class="eyebrow">RECOMMENDATION HISTORY</p><h1>Your previous plans.</h1><p>Review your past recommendation queries and results.</p></section>
+{% if history %}
+<div class="history-list large">
+{% for item in history %}
+  <details class="history-card">
+    <summary><strong>{{ item.category }}</strong><span>₹{{ "{:,.0f}".format(item.input.budget) }}</span><time>{{ item.created_at[:19].replace('T',' ') }}</time></summary>
+    <div class="history-body"><pre>{{ item.result | tojson(indent=2) }}</pre></div>
+  </details>
+{% endfor %}
+</div>
+{% else %}<div class="empty">No recommendation history yet.</div>{% endif %}
+{% endblock %}
